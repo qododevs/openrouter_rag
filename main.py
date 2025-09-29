@@ -28,7 +28,7 @@ keyboard = ReplyKeyboardMarkup(
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message):
     await message.answer(
-        "Привет! Я — ваш  консультант по снам.\n\n"
+        "Привет! Я — ваш  бьюти консультант.\n\n"
         "Нажмите кнопку ниже, чтобы очистить историю диалога.",
         reply_markup=keyboard
     )
